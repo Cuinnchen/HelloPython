@@ -11,7 +11,6 @@ class MusicPlayer(object):
             cls.instance = super().__new__(cls)
         # 3.返回类属性保存的对象引用
         return  cls.instance
-    pass
 
 player1 = MusicPlayer()
 print(player1)
